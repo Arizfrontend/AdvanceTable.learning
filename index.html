@@ -10,20 +10,20 @@
         box-sizing: border-box;
     }
 
-    table,
-    td {
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
+    /* table,
+     {
+        border-collapse: ;
+    } */
 
     .first-table {
         width: 65%;
         margin: 0% auto;
+        border: 1px solid black;
         
     }
 
-    .first-table td {
-        background-color:rgb(170, 195, 211);
+    nav ul {
+        list-style: none;
     }
 
     nav ul li a {
@@ -32,24 +32,47 @@
 		    padding: 10px;
 		    margin: 10px;
 		    display: block;
+            color: white;
 
 		}
 
  .inner-table {
         width: 100%;
+        background-color: rgb(28, 198, 175);
     }
     .inner-table td img{
         width: 100%;
     }
 
+    .footer {
+        background-color: rgb(9, 38, 142);
+        text-align: center;
+        color: white;
+    }
+
+    .rightCol {
+        background-color: rgb(45, 214, 200);
+        vertical-align: baseline;
+        color: white;
+    }
     
-   </style> 
+    .rightCol a {
+        color: white;
+    }
+
+    .leftCol {
+        background-color: rgb(10, 154, 149);
+        vertical-align: baseline;
+        
+    }
+
+  </style> 
 </head>
 <body>
     <div class="container">
         <table class="first-table">
             <tr>
-                <td>
+                <td class="leftCol">
                     <nav>
                         <ul>
                             <li><a href="#Corporate Culture">Corporate Culture</a></li>
@@ -67,13 +90,23 @@
                             
                             <article id="Corporate culture">
                                 <h2>Corporate culture</h2>
-                                <p>Corporate culture refers to the values, beliefs, and behaviors that determine how a company's employees and management interact, perform, and handle business transactions. Often, corporate culture is implied, not expressly defined, and develops organically over time from the cumulative traits of the people that the company hires.</p>
+                                <p>Corporate culture refers to the values, beliefs, and behaviors that determine how a company's employees and management interact, perform, and handle business transactions. Often, corporate culture is implied, not expressly defined, and develops organically over time from the cumulative traits of the people that the company hires.Corporate culture is the collection of values, beliefs, ethics and attitudes that characterize an organization and guide its practices.
+
+                                    To some extent, an organization's culture can be articulated in its mission statement or vision statement. Elements of corporate culture include the organization's physical environment, human resource management practices and staff work habits. Corporate culture is also reflected in the degree of emphasis placed on various defining elements such as hierarchy, process, innovation, collaboration, competition, community involvement and social engagement.
+                                    
+                                    A corporate culture that reflects the broader culture is usually more successful than one that is at odds with it. For example, in the current global culture, which values transparency, equality and communication, a secretive company with a strictly hierarchical structure is likely to have trouble recruiting and retaining workers and appealing to customers and partners.
+                                    
+                                    However, some organizations create unique cultures that break from certain norms and expected best practices, a move that can define the organizations as trailblazers and help them succeed in the marketplace.
+                                    
+                                    All organizations, whether they are for-profit companies or nonprofit entities or even government agencies, have a sense of self that can be called corporate culture.</p>
                             </article>
                             <article id="Characteristics">
                                 <h2>Characteristics</h2>
                                 <p>Corporate cultures, whether shaped intentionally or grown organically, express the core of a company’s ideology and practice. They affect every aspect of a business, from each employee and customer to a company's public image.
 
-                                    The Harvard Business Review identified six important characteristics of successful corporate cultures in 2015</p>
+                                    The Harvard Business Review identified six important characteristics of successful corporate cultures in 2015.Your company’s characteristics of corporate culture more important than ever before. HR leaders listed company culture as their top priority and biggest challenge in a recent study by Deloitte. That’s because company culture has been shown to make or break your business. Here are five characteristics that are commonly found in companies with a strong company culture.
+
+                                    Communication is the most important part of any company. Whether the message comes from the CEO or the manager of the mailroom, it should be clear, concise, and courteous. If employees are afraid of speaking up or gossiping with other employees, a culture of fear and backbiting can spread. Effective communication creates an open culture where employees of all levels are free to say what they need to do their jobs.</p>
                             </article>
                             <article id="Importance">
                                 <h2>Importance</h2>
@@ -89,17 +122,23 @@
                                     Strengthen return on investment (ROI)
                                     Provide an implacable competitive advantage
                                     Clarify for employees the goals of their positions, departments, and a company overall
-                                    Contribute to the diversification of the workforce</p>
+                                    Contribute to the diversification of the workforce.Culture can shape and influence almost all aspects of an organization, including organizational effectiveness, overall success and the bottom line.
+
+                                    Researchers have found that organizations that have well-conceived cultures supported with good policies that attract workers who fit well with the environment ultimately have more committed and productive employees.
+                                    
+                                    Business partners, customers and the general public also often react to companies that are considered to have positive corporate cultures, which in turn helps organizations succeed over time.
+                                    
+                                    On the other hand, research has found that organizations that lack a defined culture or that have fostered a toxic culture are at higher risk for poor economic results, higher employee turnover and even failure. In fact, experts have found that negative corporate cultures have caused or at least contributed to criminal corporate activity and other serious problems. For example, the late Edward Kennedy, the long-time U.S. senator from Massachusetts, blamed the implosion of the energy company Enron in 2001 on "a crisis of corporate culture."</p>
 
                             </article>
                         </td>
                     </tr>
                     <tr>
-                        <td>2022-2023 All Rights Reserved.</td>
+                        <td class="footer">2022-2023 All Rights Reserved.</td>
                     </tr>
                 </table></td>
-                <td rowspan="3" >
-                    <a href="https://www.techtarget.com/whatis/definition/corporate-culture">Visit Techtarget</a>
+                <td rowspan="3" class="rightCol" >
+                    <a href="https://www.techtarget.com/whatis/definition/corporate-culture" target="_blank">Visit Techtarget</a>
                 </td>
             </tr>
 
@@ -108,3 +147,5 @@
     </div>
 </body>
 </html>
+
+
